@@ -46,7 +46,7 @@ return array(
 		// 	),
 		// ),
 
-	
+
 	// 'db'=>array(
 	// 	'connectionString' => 'mysql:host=127.0.0.1;dbname=u0282705_project',
 	// 	'emulatePrepare' => true,
@@ -54,28 +54,28 @@ return array(
 	// 	'password' => '[yQ3W4qeA#@E',
 	// 	'charset' => 'utf8',
 	// 	),
-	
-	'db'=>array(
-		'connectionString' => 'mysql:host=127.0.0.1;dbname=dbproject_disnakertrans',
-		'emulatePrepare' => true,
-		'username' => 'root',
-		'password' => '',
-		'charset' => 'utf8',
-	),
-	
-	'errorHandler'=>array(
-		'errorAction'=>'site/error',
-		),
-	'log' => array(
-		'class' => 'CLogRouter',
-		'routes' => array(
-			array(
-				'class' => 'CFileLogRoute',
-				'levels' => 'error, warning',
+
+		'db'=>array(
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=i_syaker',
+			'emulatePrepare' => true,
+			'username' => 'root',
+			'password' => '',
+			'charset' => 'utf8',
+			),
+
+		'errorHandler'=>array(
+			'errorAction'=>'site/error',
+			),
+		'log' => array(
+			'class' => 'CLogRouter',
+			'routes' => array(
+				array(
+					'class' => 'CFileLogRoute',
+					'levels' => 'error, warning',
+					),
 				),
 			),
 		),
-	),
 
 	'language'=>'id',
 	'sourceLanguage'=>'id',
